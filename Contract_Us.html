@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- End Bootstrap CSS -->
+
+    <!--Custom Css-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--End Custom Css-->
+</head>
+
+<body>
+
+    <main id="main">
+
+        <section>
+            <div class="container mb-5">
+                
+                <section class="mb-4">
+
+                    <!--Section heading-->
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+
+                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate
+                        to contact us directly. Our team will come back to you within
+                        a matter of hours to help you.</p>
+
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6 mb-md-3 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-4">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-3">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-3">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary"
+                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6 text-center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29185.621842367495!2d90.24513212317272!3d23.88242882912427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e99900000001%3A0x2debf98e950c72ca!2sJahangirnagar%20University!5e0!3m2!1sen!2sbd!4v1688267899270!5m2!1sen!2sbd" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>></iframe>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+
+                </section>
+             
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
