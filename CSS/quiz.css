@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: rgb(2, 2, 83);
 
@@ -39,10 +47,16 @@ body{
     cursor: pointer;
     transition: all 0.3s;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background: #222;
     color: #fff;
+
 }
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
 #next-btn{
     background-color: #001e4d;
     color: #fff;
@@ -54,4 +68,13 @@ body{
     border-radius: 4px;
     cursor: pointer;
     display: none;
+}
+
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
 }
