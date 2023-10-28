@@ -17,6 +17,8 @@ body {
   header nav {
     background: #fff;
     box-shadow: 0px 0px 5px #4444;
+    position: sticky;
+    top: 0;
   }
   .logo {
     display: inline-block;
@@ -95,3 +97,119 @@ body {
 
 
   /* Table End */
+  
+
+/* footer work */
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  background-color: #000000f0;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration:none;
+  padding: 10px;
+  background-color: white;
+  margin: 10x;
+  border-radius:50%;
+}
+.socialIcons a i{
+  font-size: 1.5em;
+  color: black;
+  opacity: o.9;
+  margin: 10px;
+}
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+}
+.footerNav ul li a{
+ color: white;
+ margin: 20px;
+ text-decoration: none;
+ font-size: 1.3em;
+ opacity: 0.7;
+ transform: 0.5s;
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media(max-width: 700px){
+  .header{
+      flex-direction: column;
+  }
+  .header a{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+@media(max-width: 700px){
+  .footerNav{
+      flex-direction: column;
+  }
+  .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+
+
+/* teaminfo */
+.team-member {
+  float: left;
+  width: 50%; 
+  box-sizing: border-box; 
+  padding: 100px;
+  text-align: center;
+}
+
+.team-member img {
+  max-width: 60%;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.team-member p {
+  font-style: inherit;
+  text-align: justify;
+}
