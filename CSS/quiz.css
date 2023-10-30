@@ -1,228 +1,228 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins' , sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins' , sans-serif;
+  box-sizing: border-box;
 }
 
 .app{
-    background-color: rgb(15, 101, 177);
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    border-radius: 10px;
-    padding: 30px;
+  background-color: rgb(15, 101, 177);
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
 }
 .app h1{
-    font-size: 25px;
-    color: #001e4d;
-    font-weight: 600;
-    border-bottom: 1px solid #333;
-    padding-bottom: 30px;
+  font-size: 25px;
+  color: #001e4d;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
 }
 .quiz{
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .quiz h2{
-    font-size: 18px;
-    color: #001e4d;
-    font-weight: 600 ;
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600 ;
 }
 .btn{
-    background-color: #fff;
-    color: #222;
-    font-weight: 500;
-    width: 100%;
-    border: 1px solid #222;
-    padding: 10px;
-    margin: 10px 0;
-    text-align: left;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s;
+  background-color: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 .btn:hover:not([disabled]){
-    background: #222;
-    color: #fff;
+  background: #222;
+  color: #fff;
 
 }
 
 .btn:disabled{
-    cursor: no-drop;
+  cursor: no-drop;
 }
 
 #next-btn{
-    background-color: #001e4d;
-    color: #fff;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
+  background-color: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
 }
 
 
 .correct{
-    background: #9aeabc;
+  background: #9aeabc;
 }
 
 .incorrect{
-    background: #ff9393;
+  background: #ff9393;
 }
 
 
-  a {
-    text-decoration: none;
-    color: #1a1e21;
-  }
-  
-  .section-title h2 {
-    text-shadow: 1px 1px 2px #4444;
-  }
-  /*****************************
-      NavBar
-  ******************************/
-  header nav {
-    background: #fff;
-    box-shadow: 0px 0px 5px #4444;
-    position: sticky;
-    top: 0;
-  }
-  .logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;    
+a {
+  text-decoration: none;
+  color: #1a1e21;
 }
-  /*****************************
-      Login Form
-  ******************************/
-  .form-login{
-      bottom: 45%!important;
-  }
-  
+
+.section-title h2 {
+  text-shadow: 1px 1px 2px #4444;
+}
+/*****************************
+    NavBar
+******************************/
+header nav {
+  background: #fff;
+  box-shadow: 0px 0px 5px #4444;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px;    
+}
+/*****************************
+    Login Form
+******************************/
+.form-login{
+    bottom: 45%!important;
+}
 
 
-  /* Table End */
-  
+
+/* Table End */
+
 
 /* footer work */
 footer{
-  background-color: #111;
+background-color: #111;
 }
 .footerContainer{
-  background-color: #000000f0;
+background-color: #000000f0;
 }
 .footerContainer{
-  width: 100%;
-  padding: 70px 30px 20px;
+width: 100%;
+padding: 70px 30px 20px;
 }
 .socialIcons{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 .socialIcons a{
-  text-decoration:none;
-  padding: 10px;
-  background-color: white;
-  margin: 10x;
-  border-radius:50%;
+text-decoration:none;
+padding: 10px;
+background-color: white;
+margin: 10x;
+border-radius:50%;
 }
 .socialIcons a i{
-  font-size: 1.5em;
-  color: black;
-  opacity: o.9;
-  margin: 10px;
+font-size: 1.5em;
+color: black;
+opacity: o.9;
+margin: 10px;
 }
 .socialIcons a:hover{
-  background-color: #e0c6c6;
-  transition: 0.5s;
+background-color: #e0c6c6;
+transition: 0.5s;
 }
 .socialIcons a:hover i{
-  color: white;
-  transition: 0.5s;
+color: white;
+transition: 0.5s;
 }
 .footerNav{
-  margin: 10px 0;
+margin: 10px 0;
 }
 .footerNav ul{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 .footerNav ul li a{
- color: white;
- margin: 20px;
- text-decoration: none;
- font-size: 1.3em;
- opacity: 0.7;
- transform: 0.5s;
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+opacity: 0.7;
+transform: 0.5s;
 }
 .footerNav ul li a:hover{
-  opacity: 1;
+opacity: 1;
 }
 .footerBottom{
-  background-color: #000;
-  padding: 20px;
-  text-align: center;
+background-color: #000;
+padding: 20px;
+text-align: center;
 }
 .footerBottom p{
-  color: white;
+color: white;
 }
 .designer{
-  opacity: 0.7;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 400;
-  margin: 0px 5px;
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
 }
 @media(max-width: 700px){
-  .header{
-      flex-direction: column;
-  }
-  .header a{
-      width: 100%;
-      text-align: center;
-      margin: 10px;
-  }
+.header{
+    flex-direction: column;
+}
+.header a{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
 }
 @media(max-width: 700px){
-  .footerNav{
-      flex-direction: column;
-  }
-  .footerNav ul li{
-      width: 100%;
-      text-align: center;
-      margin: 10px;
-  }
+.footerNav{
+    flex-direction: column;
+}
+.footerNav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
 }
 
 
 /* teaminfo */
 .team-member {
-  float: left;
-  width: 50%; 
-  box-sizing: border-box; 
-  padding: 100px;
-  text-align: center;
+float: left;
+width: 50%; 
+box-sizing: border-box; 
+padding: 100px;
+text-align: center;
 }
 
 .team-member img {
-  max-width: 60%;
-  border-radius: 50%;
+max-width: 60%;
+border-radius: 50%;
 }
 
 .team-member h2 {
-  margin: 10px 0;
-  font-size: 30px;
+margin: 10px 0;
+font-size: 30px;
 }
 
 .team-member p {
-  font-style: inherit;
-  text-align: justify;
+font-style: inherit;
+text-align: justify;
 }
