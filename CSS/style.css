@@ -128,7 +128,7 @@ footer{
   margin: 10px;
 }
 .socialIcons a:hover{
-  background-color: #111;
+  background-color: #e0c6c6;
   transition: 0.5s;
 }
 .socialIcons a:hover i{
@@ -136,7 +136,7 @@ footer{
   transition: 0.5s;
 }
 .footerNav{
-  margin: 30px 0;
+  margin: 10px 0;
 }
 .footerNav ul{
   display: flex;

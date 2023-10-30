@@ -1,28 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZ</title>
-    <link rel="stylesheet" href="/css/quiz.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-</head>
-<body>
-    <div class="app">
-        <h1>Simple Quiz </h1>
-        <div class="quiz">
-          <h2 id="question">Question goes here</h2> 
-          <div id="answer-buttons">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
-          </div> 
-          <button id="next-btn">Next</button>
-        </div>
-    </div>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&display=swap"
+    rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+ 
+    <!--Custom Css-->
+    <link rel="stylesheet" href="/css/quiz.css">
+    <!--End Custom Css-->
+  </head>
+
+  <body>
     
-   <!-- <script src="quizscript.js"></script> -->
-   <script type="text/javascript" src="/JavaScript/quiz.js"></script>
-</body> 
+     <!--Header Start-->
+<header>
+  <br><br>
+     <!--Navbar Start-->
+     <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
+         <div class="container">
+          <img class="logo" src="/image/Ju_Logo3.PNG"> 
+          <link rel="icon" type="images/x-icon" href="Image/JU_LOGO.jpg"/>
+             <a class="navbar-brand" href="index.html">
+                 <h2 class="fw-bold text-dark mb-2 mb-sm-0 mb-sm-0">Ju Admission Helpline</h2>
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                 aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="bi bi-list"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                         <a class="nav-link active" aria-current="page" href="/index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                      <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Unit Info
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/templetes/unit info/aUnit.html">A Unit</a></li>
+                        <li><a class="dropdown-item" href="/templetes/unit info/bUnit.html">B Unit</a></li>
+                        <li><a class="dropdown-item" href="/templetes/unit info/cUnit.html">C Unit</a></li>
+                        <li><a class="dropdown-item" href="/templetes/unit info/c1Unit.html">C1 Unit</a></li>
+                        <li><a class="dropdown-item" href="/templetes/unit info/dUnit.html">D Unit</a></li>
+                        <li><a class="dropdown-item" href="/templetes/unit info/eUnit.html">E Unit</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active" href="/index.html">MyTeam</a>
+                  </li>
+                     <li class="nav-item">
+                         <a class="nav-link active" href="templetes/zilaAssociation.html">ZilaAssociation</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link active" href="/index.html">ContactUs</a>
+                     </li>
+                     <li class="nav-item">
+                      <a class="nav-link active" href="/templetes/quiz.html">Quiz</a>
+                  </li>
+                 </ul>
+                 <ul class="navbar-nav mb-2 mb-lg-0 action-menu">
+                     <li class="nav-item active">
+                         <a class="nav-link " href="/templetes/login.html">Login
+                             <i class="bi bi-person "></i>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+     </nav>
+     <!--Navbar End-->
+     <div class="app">
+      <h1>Simple Quiz </h1>
+      <div class="quiz">
+        <h2 id="question">Question goes here</h2> 
+        <div id="answer-buttons">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div> 
+        <button id="next-btn">Next</button>
+      </div>
+  </div>
+  <br><br><br> <br> <br> <br> 
+ <div class="footerContainer">
+  <div class="footerNav">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">My Team</a></li>
+      </ul>
+  </div>
+  <div class="footerBottom">
+      <p>Copyright &copy; 2023; Designed by <span class="designer">RH Konok</span></p>
+  </div>
+</div>
+<script type="text/javascript" src="/JavaScript/quiz.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</section>
+  </body>
 </html>
