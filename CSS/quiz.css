@@ -5,13 +5,8 @@
     box-sizing: border-box;
 }
 
-
-body{
-    background-color: rgb(2, 2, 83);
-
-}
 .app{
-    background-color: aliceblue;
+    background-color: rgb(15, 101, 177);
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -77,4 +72,157 @@ body{
 
 .incorrect{
     background: #ff9393;
+}
+
+
+  a {
+    text-decoration: none;
+    color: #1a1e21;
+  }
+  
+  .section-title h2 {
+    text-shadow: 1px 1px 2px #4444;
+  }
+  /*****************************
+      NavBar
+  ******************************/
+  header nav {
+    background: #fff;
+    box-shadow: 0px 0px 5px #4444;
+    position: sticky;
+    top: 0;
+  }
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;    
+}
+  /*****************************
+      Login Form
+  ******************************/
+  .form-login{
+      bottom: 45%!important;
+  }
+  
+
+
+  /* Table End */
+  
+
+/* footer work */
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  background-color: #000000f0;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration:none;
+  padding: 10px;
+  background-color: white;
+  margin: 10x;
+  border-radius:50%;
+}
+.socialIcons a i{
+  font-size: 1.5em;
+  color: black;
+  opacity: o.9;
+  margin: 10px;
+}
+.socialIcons a:hover{
+  background-color: #e0c6c6;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 10px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+}
+.footerNav ul li a{
+ color: white;
+ margin: 20px;
+ text-decoration: none;
+ font-size: 1.3em;
+ opacity: 0.7;
+ transform: 0.5s;
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media(max-width: 700px){
+  .header{
+      flex-direction: column;
+  }
+  .header a{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+@media(max-width: 700px){
+  .footerNav{
+      flex-direction: column;
+  }
+  .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+
+
+/* teaminfo */
+.team-member {
+  float: left;
+  width: 50%; 
+  box-sizing: border-box; 
+  padding: 100px;
+  text-align: center;
+}
+
+.team-member img {
+  max-width: 60%;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.team-member p {
+  font-style: inherit;
+  text-align: justify;
 }
