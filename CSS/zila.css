@@ -34,6 +34,9 @@ body {
   .form-login{
       bottom: 45%!important;
   }
+  a:hover{
+    background-color: rgb(34, 189, 132);
+  }
   
   /*****************************
      Carousel
